@@ -429,7 +429,424 @@ margin-left: 10px;
 
 /*-------------------RESPONSIVE-----------------*/
 
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) and (max-width: 1400px){ 
+
+	.navbar{
+	
+}
+.navbar-brand, .navbar-nav, .dropdown-item{
+     font-weight:bold;
+}
+.nav-link, .dropdown-item{
+	font-size:17px;
+	margin-right:30px;
+	margin-top:-4px;
+}
+.nav-link:hover{
+	border-bottom: 1px solid black;
+}
+.navbar-nav .ppdb{
+	background-color:#bc5450;
+    border-radius:100px;
+    padding-left:0px;
+    color:white;
+}
+.navbar-nav .ppdb:hover{
+    border:none;
+}
+.welcome{
+    margin-top:-75px;
+    padding-top:50px;
+	background-image:url('img/bg-white.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+    
+}
+.carousel-inner{
+	border:1px solid black;
+}
+
+.welcome .j-welcome{
+    font-weight:normal;
+    padding-top: 150px;
+	font-size:45px;
+}
+.img-welcome{
+    margin-left:30px;
+	width:485px;
+}
+.welcome .btn{
+   font-weight: bold;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-right:30px;
+   padding-left:30px;
+}
+
+.profil{
+    margin-top:0px;
+    
+}
+.profil .j-profil{
+	font-size:30px;
+	font-weight:bold;
+    margin-top:150px;
+    margin-left:-200px;
+    text-align:left;
+}
+.profil p{
+	font-size:20px;
+    margin-left:-200px;
+	text-align:justify;
+}
+
+.profil .bg-profil{
+	z-index:-1;
+    margin-left:-10px;
+    margin-top:100px;
+    width: 1170px;
+    height: 304px;
+    filter: drop-shadow(0px 2px 5px rgba(0,0,0,.5));
+}
+.profil .img-profil{
+	margin-top:3px;
+	margin-left: 30px;
+}
+
+.kurikulum{
+    margin-top: 100px;
+}
+
+.kurikulum .j-kurikulum,
+.jurusan .j-jurusan{
+    font-weight:bold;
+	font-size:45px;
+}
+
+.kurikulum .b-k{
+	width:70px;
+	margin-bottom: 30px;
+}
+
+.kurikulum .program-sekolah{
+	background-image:url('img/bg-p-s.png');
+	background-size:cover;
+    background-repeat:no-repeat;
+    background-position:0 -200px;
+    padding-top:100px;
+    padding-bottom:100px;
+    color:white;
+}
+
+.kurikulum .program-magang{
+	background-image:url('img/bg-p-m.png');
+	background-size:cover;
+    background-repeat:no-repeat;
+    background-position:0 -100px;
+    padding-top:100px;
+    padding-bottom:100px;
+    color:white;
+}
+.kurikulum .program-sertifikasi{
+	background-image:url('img/bg-p-ser.png');
+	background-size:cover;
+    background-repeat:no-repeat;
+    background-position:0 -100px;
+    padding-top:100px;
+    padding-bottom:100px;
+    color:white;
+}
+
+.kurikulum .j-sekolah,
+.kurikulum .j-magang,
+.kurikulum .j-sertifikasi {
+	font-size: 40px;
+    font-weight:bold;
+}
+
+
+
+.kurikulum p{
+    font-size: 20px;
+    margin-right: 100px;
+    margin-left:100px;
+    text-align:justify;
+}
+
+.kurikulum .list-group{
+	margin-left:100px;
+    margin-right:100px;
+}
+
+.jurusan{
+    margin-top:100px;
+}
+
+.jurusan .kard{
+    width:400px;
+}
+
+.jurusan .mm:hover .kard .imgBx .d-mm,
+.jurusan .tkj:hover .kard .imgBx .d-tkj, 
+.jurusan .rpl:hover .kard .imgBx .d-rpl {
+  opacity:1;
+  transition: 2s;  
+}
+  
+
+.jurusan .mm .kard .imgBx img,
+.jurusan .tkj .kard .imgBx img,
+.jurusan .rpl .kard .imgBx img{
+     margin-left:10px;
+	 box-shadow: 0 70px 63px -60px #000000;
+	 width: 400px;
+}
+
+
+.jurusan .kard .imgBx .d-tkj .j-tkj,
+.jurusan .kard .imgBx .d-rpl .j-rpl,
+.jurusan .kard .imgBx .d-mm .j-mm {
+	font-size: 28px;
+	font-weight:bold;
+    margin-top:40px;
+    margin-left:0px;
+}
+
+.jurusan p{
+    font-size:17px;
+    text-align:justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left:10px;
+	margin-bottom:30px;
+}
+
+.jurusan .mm .kard .imgBx .d-mm,
+.jurusan .tkj .kard .imgBx .d-tkj,
+.jurusan .rpl .kard .imgBx .d-rpl{
+	opacity:1;
+}
+
+
+.events{
+    margin-top:100px;
+	background-image:url('img/festival.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding-top:50px;
+    padding-bottom:50px;
+    background-position: 0 -300px;
+}
+
+.events .j-events
+{
+    font-family:Franklin Gothic Medium;
+	color:white;
+}
+
+.events h2{
+	color:white;
+    font-size: 20px;
+}
+
+.events p{
+	font-family:Century Gothic;
+	color:white;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.festival{
+    width:100%;
+    height:715px;
+	background-image:url('img/festival.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.festival .j-festival
+{
+    font-family:Franklin Gothic Medium;
+	color:white;
+    margin-top:300px;
+}
+
+.festival h2{
+	color:white;
+    font-size: 20px;
+}
+
+.festival p{
+	font-family:Century Gothic;
+	color:white;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.festival .j-cm-festival
+{
+    font-family:Franklin Gothic Medium;
+	color:white;
+}
+
+.pendaftaran{
+	background-image:url('img/bg-pendaftaran.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-top:-75px;
+	padding:100px;
+}
+
+.canvas{
+	width: 900px;
+	box-shadow: 0 5px 20px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+
+.about-us{
+	background-image:url('img/bg-kontak.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-top:-75px;
+	padding-top:100px;
+	padding-bottom:50px;
+}
+
+.about-us .img-about-us{
+	width: 361px;
+    margin-left:0;
+}
+
+.about-us .j-about-us{
+    font-size: 30px;
+    margin-left: -180px;
+    margin-top: 140px;
+    font-weight:bold;
+    text-align:left;
+}
+
+.about-us  p{
+    font-size: 18px;
+    margin-left: -180px;
+    text-align:justify;
+}
+
+.visi-misi{
+	margin-top:50px;
+}
+
+.visi, .misi{
+    border-radius:20px;
+	box-shadow: 0 5px 20px rgba(0,0,0,.5);
+    padding: 20px;
+}
+.visi p{
+margin-left: 10px;
+}
+
+.misi p{
+	margin-left: 10px;
+	 
+ }
+
+.visi .j-visi,
+.misi .j-misi{
+	font-size: 30px;
+    font-weight:bold;
+}
+
+.kontak{
+	margin-top:50px;
+	background-image:url('img/bg-kontak.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-top:-75px;
+	padding-top:100px;
+}
+
+.kontak .contact-us{
+	margin-top: 50px;
+}
+
+.kontak .contact-us p{
+	font-size: 20px;
+	font-weight:bold;
+}
+
+.kontak .phone,
+.kontak .gmail
+{
+	box-shadow: 0 2px 5px rgba(0,0,0,.5);
+	padding:10px;
+	margin-left: 100px;
+	margin-right:100px;
+	border-bottom-left-radius:50px;
+	border-top-right-radius:50px;
+}
+
+.kontak .phone{
+	margin-right:0px;
+}
+
+.kontak .gmail{
+	margin-left: -10px;
+}
+
+.kontak .address{
+	box-shadow: 0 2px 5px rgba(0,0,0,.5);
+	padding:10px;
+	margin-left: 100px;
+	margin-right:100px;
+	border-radius: 10px;
+}
+
+.kontak .phone img,
+.kontak .gmail img,
+.kontak .address img{
+	margin-top:20px;
+}
+
+
+
+.footer-about-us,
+.footer-kontak{
+	margin-top:50px;
+    padding-top:20px;
+}
+
+.footer-about-us,
+.footer-kontak p{
+	font-size:18px;
+	margin-top:10px;
+    font-weight: bold;
+}
+
+.footer{
+	margin-top:100px;
+    background-color:#F2F2F2;
+    padding-top:20px;
+}
+
+.logo-footer{
+	font-size: 20px;
+    font-weight: bold;
+}
+
+.footer p{
+	font-size:18px;
+	margin-top:10px;
+      font-weight: bold;
+}
+
+}
+
+/*-------------------RESPONSIVE-----------------*/
+
+@media (min-width: 1400px){ 
 
 	.navbar{
 	
