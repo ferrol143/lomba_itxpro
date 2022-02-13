@@ -176,7 +176,7 @@
 .jurusan .rpl .kard .imgBx img{
      margin-left:0px;
 	 box-shadow: 0 70px 63px -60px #000000;
-	 width: 100%;
+	 width: 350px;
 }
 
 
@@ -186,15 +186,15 @@
 	font-size: 22px;
 	font-weight:bold;
     margin-top:40px;
-    margin-left:0px;
+    margin-left:-50px;
 }
 
 .jurusan p{
     font-size:16px;
     text-align:justify;
     padding-left: 10px;
-    padding-right: 0px;
-    margin-left:0px;
+    padding-right: 80px;
+    margin-left:15px;
 	margin-bottom:30px;
 }
 
