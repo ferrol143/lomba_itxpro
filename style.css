@@ -348,7 +348,7 @@ margin-left: 10px;
 }
 
 .kontak .contact-us{
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 .kontak .contact-us p{
@@ -499,17 +499,18 @@ margin-left: 10px;
     margin-left:-300px;
 	text-align:justify;
 }
+
 .profil .bg-profil{
 	z-index:-1;
-    margin-left:-50px;
+    margin-left:-10px;
     margin-top:100px;
-    width: 1400px;
-    height: 349px;
+    width: 1315px;
+    height: 304px;
     filter: drop-shadow(0px 2px 5px rgba(0,0,0,.5));
 }
 .profil .img-profil{
 	margin-top:3px;
-	margin-left: 0px;
+	margin-left: 30px;
 }
 
 .kurikulum{
@@ -785,7 +786,6 @@ margin-left: 10px;
 	margin-right:100px;
 	border-bottom-left-radius:50px;
 	border-top-right-radius:50px;
-	background-color:rgba(255,255,255,.5);
 }
 
 .kontak .phone{
@@ -802,7 +802,6 @@ margin-left: 10px;
 	margin-left: 100px;
 	margin-right:100px;
 	border-radius: 10px;
-	background-color:rgba(255,255,255,.5);
 }
 
 .kontak .phone img,
