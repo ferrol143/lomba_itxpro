@@ -356,6 +356,38 @@ margin-left: 10px;
 	font-weight:bold;
 }
 
+.kontak .phone,
+.kontak .gmail
+{
+	box-shadow: 0 2px 5px rgba(0,0,0,.5);
+	padding:10px;
+	margin-left: 0px;
+	margin-right:0px;
+	border-bottom-left-radius:50px;
+	border-top-right-radius:50px;
+}
+
+.kontak .phone{
+	margin-right:0px;
+}
+
+.kontak .gmail{
+	margin-left: -10px;
+}
+
+.kontak .address{
+	box-shadow: 0 2px 5px rgba(0,0,0,.5);
+	padding:10px;
+	margin-left: 0px;
+	margin-right:0px;
+	border-radius: 10px;
+}
+
+.kontak .phone img,
+.kontak .gmail img,
+.kontak .address img{
+	margin-top:20px;
+}
 
 
 
@@ -734,7 +766,7 @@ margin-left: 10px;
 }
 
 .kontak .contact-us{
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .kontak .contact-us p{
@@ -742,6 +774,38 @@ margin-left: 10px;
 	font-weight:bold;
 }
 
+.kontak .phone,
+.kontak .gmail
+{
+	box-shadow: 0 2px 5px rgba(0,0,0,.5);
+	padding:10px;
+	margin-left: 100px;
+	margin-right:100px;
+	border-bottom-left-radius:50px;
+	border-top-right-radius:50px;
+}
+
+.kontak .phone{
+	margin-right:0px;
+}
+
+.kontak .gmail{
+	margin-left: -10px;
+}
+
+.kontak .address{
+	box-shadow: 0 2px 5px rgba(0,0,0,.5);
+	padding:10px;
+	margin-left: 100px;
+	margin-right:100px;
+	border-radius: 10px;
+}
+
+.kontak .phone img,
+.kontak .gmail img,
+.kontak .address img{
+	margin-top:20px;
+}
 
 
 
